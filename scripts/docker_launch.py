@@ -48,7 +48,7 @@ def docker_launch(tutorial_name: str, build: bool, port: int) -> None:
     if build:
         build_image(tutorial_name)
     check_port(port)
-    run_image(tutorial_name, port)
+    #run_image(tutorial_name, port)
 
 
 if __name__ == "__main__":
